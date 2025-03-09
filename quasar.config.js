@@ -65,6 +65,9 @@ export default defineConfig((/* ctx */) => {
       // vitePlugins: [
       //   [ 'package-name', { ..pluginOptions.. }, { server: true, client: true } ]
       // ]
+      env: {
+        API_URL: process.env.API_URL
+      },
     },
 
     // Full list of options: https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#devserver

@@ -9,7 +9,7 @@ declare module '@vue/runtime-core' {
 }
 
 const api = axios.create({ 
-  baseURL: 'http://localhost:3000' 
+  baseURL: process.env.API_URL || 'http://localhost:3000'
 })
 
 // Initialize token from localStorage if it exists
