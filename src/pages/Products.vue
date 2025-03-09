@@ -32,13 +32,12 @@
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import { useCartStore } from '../stores/cart-store';
 import { useRouter } from 'vue-router';
 import { useAuthStore } from '../stores/auth-store';
 import { api } from '../boot/axios';
 import { Notify } from 'quasar';
 
-const cartStore = useCartStore();
+
 const router = useRouter();
 const authStore = useAuthStore();
 

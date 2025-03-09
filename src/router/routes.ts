@@ -21,13 +21,7 @@ const routes  : RouteRecordRaw[] = [
         name: 'products',  // Add name to the products route
         component: () => import('pages/Products.vue'),
         beforeEnter: authGuard
-      },
-      { 
-        path: 'cart',
-        name: 'cart', 
-        component: () => import('pages/Cart.vue'),
-        beforeEnter: authGuard  // Also protect cart route if needed
-      }
+      } 
     ]
   },
   {
