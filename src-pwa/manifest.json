@@ -1,4 +1,5 @@
-{
+{ "name": "quasar-frontend",
+  "short_name": "shopApp",
   "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#027be3",
